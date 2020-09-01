@@ -1,3 +1,6 @@
+![](https://img.shields.io/github/issues/enricodente/cordova-plugin-crypt-file-android.svg)
+![](https://img.shields.io/github/license/enricodente/cordova-plugin-crypt-file-android.svg)
+
 # Cordova crypt file plugin for Android only
 HTML source file is encrypted at build, and decrypted at runtime. Works with Android build only.
 
