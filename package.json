@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-crypt-file-android",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "This plugin to encrypt/decrypt the source files.",
   "repository": {
     "type": "git",

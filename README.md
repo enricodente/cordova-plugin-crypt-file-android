@@ -4,6 +4,8 @@
 # Cordova crypt file plugin for Android only
 HTML source file is encrypted at build, and decrypted at runtime. Works with Android build only.
 
+Supports the Cordova Android 15 `WebViewAssetLoader` request path used by newer Android platform releases.
+
 NPM repository:
 https://www.npmjs.com/package/cordova-plugin-crypt-file-android
 
@@ -54,7 +56,7 @@ For cordova-android@7 :
  
 ## Configuration
 
-You can also change the port in the `config.xml`, but it needs to be the same port as the one used in the "cordova-plugin-ionic-webview".
+You can also change the port in the `config.xml`, but it needs to be the same port as the one used in the "cordova-plugin-ionic-webview" when relying on the legacy localhost remap flow.
 To change the port, do the following:
 
 #### cryptoPort
